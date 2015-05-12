@@ -53,6 +53,7 @@ public class CommentController {
 			cdto.createDTOfromPo(c);
 			commentDTOs.add(cdto);
 		}
+		System.out.println("333333333");
 		
 		data.put("comments", commentDTOs);
 		data.put("total", searchResult.getTotal());
